@@ -96,75 +96,11 @@ final List<GetPage> pages = [
   // ),
   GetPage(
     name: "/",
-    page: () => Dashboard(), // const MyHomePage(title: "hello"),
+    page: () => const Dashboard(), // const MyHomePage(title: "hello"),
   ),
   GetPage(
     name: "/home",
-    page: () => const MainLayout(child:  HomePage()),
+    page: () => const HomePage(),
   ),
-  // GetPage(
-  //   name: "/product",
-  //   page: () => ProductDetail(),
-  // ),
-  // GetPage(
-  //   name: "/perform",
-  //   page: () => const PerformMain(),
-  // ),
-  // GetPage(
-  //   name: "/perform/acc",
-  //   page: () => const AccountPage(),
-  // ),
-  // GetPage(
-  //   name: "/perform/vendor",
-  //   page: () => const VendorPage(),
-  // ),
-  // GetPage(
-  //   name: "/perform/unit",
-  //   page: () => const UnitPage(),
-  // ),
-  // GetPage(
-  //   name: "/perform/cate",
-  //   page: () => const CatePage(),
-  // ),
-  // GetPage(
-  //   name: "/purchase",
-  //   page: () => const PurchaseMain(),
-  // ),
-  // GetPage(
-  //   name: "/purchase/add",
-  //   page: () => const AddPurchases(),
-  // ),
-  // GetPage(
-  //   name: "/purchase/temp",
-  //   page: () => const PurchasesTemp(),
-  // ),
-  // GetPage(
-  //   name: "/purchase/list",
-  //   page: () => const PurchasesList(),
-  // ),
-  // GetPage(
-  //   name: "/stock",
-  //   page: () => const StockMain(),
-  // ),
-  // GetPage(
-  //   name: "/sale",
-  //   page: () => const SaleMain(),
-  // ),
-  // GetPage(
-  //   name: "/sale/list",
-  //   page: () => const SaleList(),
-  // ),
-  // GetPage(
-  //   name: "/sale/insert",
-  //   page: () => NewSaleView(),
-  //   // page: () => const NewSale(),
-  // ),
-  // GetPage(
-  //   name: "/ledger",
-  //   page: () => const LedgerMain(),
-  // ),
-  // GetPage(
-  //   name: "/expenses",
-  //   page: () => const ExpensesMain(),
-  // ),
+
 ];

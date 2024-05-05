@@ -18,14 +18,13 @@ List<MenuItemM> topMenuItems = [
   MenuItemM(
     null,
     'Dashboard',
-    AntDesign.home,onClicked: (){}
+    AntDesign.home,onClicked: (){},trailing: IconButton(onPressed: (){ Get.toNamed('/');}, icon: const Icon(Icons.clear, color: Colors.grey))
   ),
   MenuItemM(
     null,
     'Chat',
-    AntDesign.message1,onClicked: (){ Get.toNamed('/home');
-  },trailing: Container(child: GestureDetector(child: Text('x'), onTap: (){ Get.toNamed('/home');
-  }),)
+    AntDesign.message1,onClicked: (){
+  },trailing: IconButton(onPressed: (){ Get.toNamed('/home');}, icon: const Icon(Icons.clear, color: Colors.grey))
   ),
   MenuItemM(
     null,

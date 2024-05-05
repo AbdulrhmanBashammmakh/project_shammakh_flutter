@@ -37,7 +37,7 @@ class SearchBar extends StatelessWidget {
           TextButton.icon(
             icon: const Icon(
               AntDesign.swap,
-              color: textColor,
+              color: Colors.black,
               size: 16,
             ),
             onPressed: () {},
@@ -60,7 +60,7 @@ class SearchBar extends StatelessWidget {
               text: const TextSpan(
                 text: 'Sort: ',
                 style: TextStyle(
-                  color: textColor,
+                  color: Colors.black,
                   fontSize: 12,
                 ),
                 children: [

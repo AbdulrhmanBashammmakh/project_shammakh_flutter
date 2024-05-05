@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:project_shammakh_flutter/layouts/top_bar.dart';
 
 import '../constants.dart';
 import 'side_bar.dart';
@@ -40,7 +41,7 @@ class _MainLayoutState extends State<MainLayout> {
               Expanded(
                 child: Column(
                   children: [
-                    // const TopBar(),
+                   // const TopBar(),
                     Expanded(
                       child: SingleChildScrollView(
                         child: Padding(
